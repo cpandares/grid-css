@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 5px solid #f22135;
+    background-color: azure;
+    display: grid;
+    /* cuantas columnas va a tner y el tamaño */
+    grid-template-columns: 100px 200px 300px;
+     /* cuantas filas va a tner y el tamaño cuando sabemos el tamaño de las filas*/
+     grid-template-rows: 150px 250px;
+    /* cuantas filas va a tner y el tamaño cuando NO sabemos el tamaño de las filas*/
+    grid-auto-rows: 150px;
+    /* Modificar como se llena la grilla */
+    grid-auto-flow: column;
+    /* espacio entre filas */
+    row-gap: 25px;
+    /* espacio entre columnas */
+    column-gap: 35px;
+
+    /* Si es el mismo espaciado entre filas y columnas se usa gap: valor; */
+}
+
+.item{
+    border: 5px solid salmon;
+    font-size: 4rem;
+}
+
+/* 
+
+Propiedades para la alineación de los items (elementos):
+
+Justify-items
+Align-items
+Place-items
+Propiedades para la alineación del container(El Contenedor):
+
+Justify-content
+Align-content
+Place-content
+Propiedades para la alineación de un solo item individual
+
+Justify-self
+Align-self
+Place-self
+
+*/

@@ -1,0 +1,26 @@
+Container: Es un contenedor donde se almacenan los elementos
+
+Item: Son los elementos que estan en el contenedor y se convierten en Grid Item pueden ser (botones,links,imagenes y videos)
+
+Lineas : Son los elementos que dividen las filas y columnas de una Grilla
+
+Celda: Es la unidad minima que tenemos en una Grilla, esta delimitada por 4 lineas. Ocupa 1 columna, 1 Fila
+
+Track: Los track son un grupo de celdas que estan en una misma fila o una misma columna
+
+Area: Pueden usar varias filas o varias columnas al mismo tiempo
+
+
+KEYWORDS ESPECIALES
+
+fr : Es una unidad de medida especial de css grid para darle ancho o alto a filas y columnas 1fr representa una fraccion del total de columnas o filas.
+
+min-content : Ajusta el ancho de la celda lo mínimo posible sin romper su contenido.
+
+max-content : Ajusta el ancho de la celda lo máximo posible para mostrar su contenido.
+
+auto-fill : Agrega columnas “fantasma” que rellenan el espacio sobrante del contenedor.
+
+auto-fit : Ensancha las columnas para que ocupen todo el espacio del contenedor.
+
+auto-fill y auto-fit ayudan a la grilla a ocupar el 100% del espacio disponible.
